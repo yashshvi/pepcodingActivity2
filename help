@@ -1,13 +1,4 @@
-// let main="mainfolder";
-// console.log(main);
-// let currpath=process.cwd();
-// let mainfolder=path.join(currpath,main);
-// console.log(mainfolder);
-// fs.mkdirSync(mainfolder);
-// let arr=["media","archives","documents","others"];
-// for(let i=0;i<arr.length;i++){
-//        let temp=mainfolder;
-//    let subfolder=path.join(temp,arr[i]);
-//    console.log(subfolder);
-//    fs.mkdirSync(subfolder);
-//    }
+git init
+git add .
+git commit  -m "comitting"
+git push -u origin main

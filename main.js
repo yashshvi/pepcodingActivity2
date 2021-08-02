@@ -6,6 +6,8 @@ const organise = require('./command/organise');
 let helpobj=require('./command/help');
 let orgobj=require('./command/organise');
 let treeobj=require('./command/tree');
+//type this if you forget
+// node main.js help  
 
 let inputarr=process.argv.slice(2); // because in 0,1 position we get node ,path
 let filename=inputarr[0];
@@ -19,4 +21,6 @@ let filename=inputarr[0];
 
  }else if(filename=="help"){
 console.log(helpobj.fn1());
+ }else{
+     console.log("wrong command");
  }
